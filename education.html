@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Education Hub | Brave Hearts</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8b5cf6',
+                        secondary: '#ec4899',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i data-feather="heart" class="text-primary h-8 w-8"></i>
+                        <span class="ml-2 text-xl font-bold text-gray-900">BraveHearts</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-primary font-medium px-3 py-2 rounded-md text-sm">Home</a>
+                    <a href="education.html" class="text-primary font-medium px-3 py-2 rounded-md text-sm">Education Hub</a>
+                    <a href="community.html" class="text-gray-700 hover:text-primary font-medium px-3 py-2 rounded-md text-sm">Community</a>
+                    <a href="mission.html" class="text-gray-700 hover:text-primary font-medium px-3 py-2 rounded-md text-sm">Our Mission</a>
+                    <a href="about.html" class="text-gray-700 hover:text-primary font-medium px-3 py-2 rounded-md text-sm">About Us</a>
+<a href="community.html" class="bg-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition">Find Support</a>
+</div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="bg-primary text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Cancer Education Hub</h1>
+                <p class="text-xl max-w-3xl mx-auto">Empowering you with knowledge about cancer types, treatments, and prevention strategies.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-center">Understanding Cancer Types</h2>
+            <p class="text-gray-600 text-center max-w-4xl mx-auto">Select a cancer type below to learn about symptoms, risk factors, diagnosis, treatment options, and prevention strategies.</p>
+        </div>
+        <!-- Cancer Type Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Breast Cancer -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img class="h-48 w-full object-cover" src="http://static.photos/medical/640x360/101">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Breast Cancer</h3>
+                    <p class="text-gray-600 mb-4">Information on symptoms, diagnosis and treatment options for breast cancer.</p>
+                    <a href="https://www.cancer.gov/types/breast" target="_blank" class="text-primary font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i></a>
+</div>
+            </div>
+
+            <!-- Lung Cancer -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img class="h-48 w-full object-cover" src="http://static.photos/medical/640x360/102">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Lung Cancer</h3>
+                    <p class="text-gray-600 mb-4">Understanding risks, stages and treatments for lung cancer.</p>
+                    <a href="https://www.cancer.gov/types/lung" target="_blank" class="text-primary font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i></a>
+</div>
+            </div>
+
+            <!-- Prostate Cancer -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img class="h-48 w-full object-cover" src="http://static.photos/medical/640x360/103">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Prostate Cancer</h3>
+                    <p class="text-gray-600 mb-4">Guidance on screening, diagnosis and managing prostate cancer.</p>
+                    <a href="https://www.cancer.gov/types/prostate" target="_blank" class="text-primary font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i></a>
+</div>
+            </div>
+
+            <!-- Colorectal Cancer -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img class="h-48 w-full object-cover" src="http://static.photos/medical/640x360/104">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Colorectal Cancer</h3>
+                    <p class="text-gray-600 mb-4">Information on prevention and treatment of colon and rectal cancers.</p>
+                    <a href="https://www.cancer.gov/types/colorectal" target="_blank" class="text-primary font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i></a>
+</div>
+            </div>
+
+            <!-- Skin Cancer -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img class="h-48 w-full object-cover" src="http://static.photos/medical/640x360/105">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Skin Cancer</h3>
+                    <p class="text-gray-600 mb-4">Learn about melanoma and non-melanoma skin cancers.</p>
+                    <a href="https://www.cancer.gov/types/skin" target="_blank" class="text-primary font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i></a>
+</div>
+            </div>
+
+            <!-- Leukemia -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img class="h-48 w-full object-cover" src="http://static.photos/medical/640x360/106">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Leukemia</h3>
+                    <p class="text-gray-600 mb-4">Information about blood cancers and their treatments.</p>
+                    <a href="https://www.cancer.gov/types/leukemia" target="_blank" class="text-primary font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i></a>
+</div>
+            </div>
+        </div>
+
+        <div class="mt-16 bg-white p-8 rounded-xl shadow-md">
+            <h2 class="text-2xl font-bold mb-6">Additional Resources</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <a href="https://www.cancer.gov/types" target="https://www.ncikenya.go.ke/" class="flex items-center p-4 border border-gray-200 rounded-lg hover:border-primary transition">
+                    <i data-feather="external-link" class="text-primary mr-4"></i>
+                    <span class="font-medium">National Cancer Institute - All Cancer Types</span>
+                </a>
+                <a href="https://www.cdc.gov/cancer/" target="_blank" class="flex items-center p-4 border border-gray-200 rounded-lg hover:border-primary transition">
+                    <i data-feather="external-link" class="text-primary mr-4"></i>
+                    <span class="font-medium">CDC Cancer Resources</span>
+                </a>
+                <a href="https://www.cancer.org/cancer.html" target="_blank" class="flex items-center p-4 border border-gray-200 rounded-lg hover:border-primary transition">
+                    <i data-feather="external-link" class="text-primary mr-4"></i>
+                    <span class="font-medium">American Cancer Society</span>
+                </a>
+                <a href="https://www.cancer.net/" target="_blank" class="flex items-center p-4 border border-gray-200 rounded-lg hover:border-primary transition">
+                    <i data-feather="external-link" class="text-primary mr-4"></i>
+                    <span class="font-medium">Cancer.Net (ASCO)</span>
+                </a>
+</div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
